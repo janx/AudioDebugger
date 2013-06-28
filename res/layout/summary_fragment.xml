@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/summaryRingerMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_ringer_mode" />
+
+    <TextView
+        android:id="@+id/summaryDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_device" />
+
+    <Button
+        android:id="@+id/btnSetSpeakerPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_set_speaker_phone" />
+
+    <TextView
+        android:id="@+id/summaryUnmute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_unmute"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/btnStreamAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_alarm"
+            android:textOn="@string/btn_stream_alarm" />
+
+        <ToggleButton
+            android:id="@+id/btnStreamDTMF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_dtmf"
+            android:textOn="@string/btn_stream_dtmf" />
+
+        <ToggleButton
+            android:id="@+id/btnStreamMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_music"
+            android:textOn="@string/btn_stream_music" />
+
+        <ToggleButton
+            android:id="@+id/btnStreamNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_notification"
+            android:textOn="@string/btn_stream_notification" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/btnStreamRing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_ring"
+            android:textOn="@string/btn_stream_ring" />
+
+        <ToggleButton
+            android:id="@+id/btnStreamSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_system"
+            android:textOn="@string/btn_stream_system" />
+
+        <ToggleButton
+            android:id="@+id/btnStreamVoiceCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:textOff="@string/btn_stream_voice_call"
+            android:textOn="@string/btn_stream_voice_call" />
+
+    </LinearLayout>
+
+</LinearLayout>
